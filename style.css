@@ -1,0 +1,45 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar css beginning */
+#first_section_nav {
+    height: 10%;
+    width: 100%;
+    background: navy;
+    position: fixed;
+}
+#heading {
+    font-size: 15px;
+    font: arial;
+}
+#navigation {
+    width: 95%;
+    margin: auto;
+}
+#nav_ul {
+    list-style: none;
+    float: right;
+    display: flex;
+}
+#img_logo {
+    margin-top: 5px;
+    color: white;
+}
+#nav_ul li {
+    margin-bottom: 5px;
+    padding-right: 25px;
+}
+.link {
+    text-decoration: none;
+    color: white;
+}
+/* navbar css end */
+
+/* intro to home page */
+/*  */
