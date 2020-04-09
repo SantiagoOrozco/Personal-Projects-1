@@ -1,45 +1,101 @@
+/* * {
+    border: 1px solid black;
+} */
+
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
-    margin: 0;
-    padding: 0;
 }
+
+/* sets background img */
+#background_img {
+    background-image: url('https://images.pexels.com/photos/934070/pexels-photo-934070.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+    background-size: cover;
+    height: 98%;
+    width: 100%;
+    position: fixed;
+}
+/* sets background img end */
 
 /* navbar css beginning */
 #first_section_nav {
     height: 10%;
     width: 100%;
-    background: navy;
     position: fixed;
 }
 #heading {
     font-size: 15px;
     font: arial;
 }
-#navigation {
-    width: 95%;
-    margin: auto;
-}
 #nav_ul {
     list-style: none;
     float: right;
     display: flex;
+    border-left: 1.5px solid rgb(2, 103, 150);
 }
-#img_logo {
-    margin-top: 5px;
-    color: white;
+#logo {
+    float: left;
+    color: rgb(2, 103, 150);
+    border: 2px solid rgb(1, 67, 97);
+    font-weight: bolder;
+    margin: 10px 40px;
+    padding: 10px 15px;
+    border-radius: 50px;
+}
+#logo p {
+    margin: 0;
+    font-size: 15px;
 }
 #nav_ul li {
-    margin-bottom: 5px;
-    padding-right: 25px;
+    margin: 0;
+    padding: 5px 10px;
+    border: 2px solid rgb(2, 103, 150);
+    margin-right: 15px;
+    display: inline-block;
 }
 .link {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 /* navbar css end */
 
-/* intro to home page */
-/*  */
+
+/* intro to home page css beginning */
+#second_section_intro {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    margin-top: 12%;
+}
+#intro_heading {
+    border-right: 1px solid white;
+    font-size: 50px;
+    padding: 0px 10px;
+    color: rgb(2, 103,150);
+}
+#intro_text {
+    width: 20%;
+    margin: 10px 0px 0px 20px;
+    padding: 0px 10px;
+    font-size: 30px;
+    font-weight: 50;
+    color: white;
+}
+#intro_text button {
+    font-size: 15px;
+    background: rgb(1, 67, 97);
+    padding: 10px 30px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+}
+/* intro to home page css end */
+
+/* CEO section css beginning */
+#third_section_CEO h1 {
+    
+}
+/* CEO section css end */
