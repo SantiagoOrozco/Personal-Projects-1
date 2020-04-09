@@ -15,7 +15,7 @@ body, html {
     background-size: cover;
     height: 98%;
     width: 100%;
-    position: fixed;
+    
 }
 /* sets background img end */
 
@@ -23,7 +23,7 @@ body, html {
 #first_section_nav {
     height: 10%;
     width: 100%;
-    position: fixed;
+    
 }
 #heading {
     font-size: 15px;
@@ -67,7 +67,6 @@ body, html {
     display: flex;
     justify-content: center;
     width: 100%;
-    position: fixed;
     margin-top: 12%;
 }
 #intro_heading {
