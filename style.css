@@ -96,7 +96,6 @@ body, html {
     background: rgb(1, 67, 97);
     color: white;
     font-size: 20px;
-    width: 100%;
 }
 #CEO-img {
     display: inline-block;
@@ -105,18 +104,67 @@ body, html {
 }
 #CEO-img img {
     border: 1px solid white;
-    border-radius: 200px;
+    border-radius: 150px;
 }
 #CEO-info {
     width: 50%;
     margin: auto;
     text-align: center;
     border-radius: 20px;
+    padding-bottom: 35px;
+}
+hr {
+    margin-top: 100px;
+    width: 90%;
 }
 /* CEO section css end */
 
 /* shopping options css beginning */
+#shopping-h1{
+    padding-top: 30px;
+    text-align: center;
+    color: rgb(1, 67, 97);
+    font-size: 40px;
+}
 #fourth-section-shopping {
     display: flex;
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+#fourth-section-shopping div {
+    width: 33%;
+    color: white;
+}
+.options h1 {
+    font-size: 30px;
+}
+.options p {
+    font-size: 20px;
+}
+.options {
+    margin-right: 30px;
+    height: 300px;
+    border: 1px solid black;
+}
+#sports {
+    background-image: url("https://images.pexels.com/photos/3621185/pexels-photo-3621185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=600&w=200");
+    background-size: cover;
+}
+#casual {
+    background-image: url("https://images.pexels.com/photos/934063/pexels-photo-934063.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-size: cover;
+}
+#formal {
+    background-image: url("https://images.pexels.com/photos/2254119/pexels-photo-2254119.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-size: cover;
+}
+.option-name-description {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 80px;
+    background-color: rgba(0, 0, 0, .2);
+    padding: 10px 20px;
 }
 /* shopping options css ending */
