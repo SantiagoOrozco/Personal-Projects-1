@@ -10,7 +10,7 @@ body, html {
 }
 
 /* sets background img */
-#background_img {
+#background-img {
     background-image: url('https://images.pexels.com/photos/934070/pexels-photo-934070.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
     background-size: cover;
     height: 98%;
@@ -20,16 +20,14 @@ body, html {
 /* sets background img end */
 
 /* navbar css beginning */
-#first_section_nav {
-    height: 10%;
+#first-section-nav {
     width: 100%;
-    
 }
 #heading {
     font-size: 15px;
     font: arial;
 }
-#nav_ul {
+#nav-ul {
     list-style: none;
     float: right;
     display: flex;
@@ -48,7 +46,7 @@ body, html {
     margin: 0;
     font-size: 15px;
 }
-#nav_ul li {
+#nav-ul li {
     margin: 0;
     padding: 5px 10px;
     border: 2px solid rgb(2, 103, 150);
@@ -63,27 +61,27 @@ body, html {
 
 
 /* intro to home page css beginning */
-#second_section_intro {
+#second-section-intro {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 12%;
 }
-#intro_heading {
+#intro-heading {
     border-right: 1px solid white;
     font-size: 50px;
     padding: 0px 10px;
     color: rgb(2, 103,150);
+    margin-top: 10%;
 }
-#intro_text {
+#intro-text {
     width: 20%;
     margin: 10px 0px 0px 20px;
     padding: 0px 10px;
     font-size: 30px;
-    font-weight: 50;
     color: white;
+    margin-top: 10%;
 }
-#intro_text button {
+#intro-text button {
     font-size: 15px;
     background: rgb(1, 67, 97);
     padding: 10px 30px;
@@ -94,7 +92,31 @@ body, html {
 /* intro to home page css end */
 
 /* CEO section css beginning */
-#third_section_CEO h1 {
-    
+#third-section-CEO {
+    background: rgb(1, 67, 97);
+    color: white;
+    font-size: 20px;
+    width: 100%;
+}
+#CEO-img {
+    display: inline-block;
+    padding-left: 500px;
+    padding-top: 30px;
+}
+#CEO-img img {
+    border: 1px solid white;
+    border-radius: 200px;
+}
+#CEO-info {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
 }
 /* CEO section css end */
+
+/* shopping options css beginning */
+#fourth-section-shopping {
+    display: flex;
+}
+/* shopping options css ending */
